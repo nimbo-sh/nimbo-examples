@@ -13,13 +13,11 @@ Replace the `my-bucket-name` in the `s3_results_path` and `s3_datasets_path` wit
 Do not change the `local_results_path` and the `conda_env`, as they are already correctly set to match the runner script configuration.
 
 ### Finetune the network with nimbo
-Run:
 ```
 nimbo run "python -u detectron2_finetuning.py"
 ```
 
 ### Download the results
-Run:
 ```
 nimbo pull results
 ```
