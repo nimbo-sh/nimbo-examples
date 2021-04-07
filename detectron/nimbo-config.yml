@@ -1,0 +1,23 @@
+# Data paths
+local_results_path: output  # relative to project root
+local_datasets_path: datasets  # relative to project root
+s3_results_path: s3://my-bucket-name/nimbo-examples/detectron/output
+s3_datasets_path: s3://my-bucket-name/nimbo-examples/detectron/datasets
+
+# Device, environment and regions
+aws_profile: nimbo
+region_name: eu-west-1
+instance_type: g4dn.2xlarge
+spot: no 
+
+image: ubuntu18-latest-drivers
+disk_size: 128
+conda_env: env.yml
+
+# Job options
+run_in_background: no
+persist: no
+
+# Permissions and credentials
+security_group: default
+instance_key: my-ec2-key-pair
