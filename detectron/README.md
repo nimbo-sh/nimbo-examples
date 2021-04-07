@@ -1,6 +1,6 @@
 # Finetuning Detectron2 on Nimbo
 
-This example shows how to finetune a Detectron network to detect balloons. The script `detectron2_finetuning.py` is a simplified version of the [Detectron Colab tutorial](https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5).
+This example shows how to finetune a Detectron network to segment balloons in images. The script `detectron2_finetuning.py` is a simplified version of the [Detectron Colab tutorial](https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5).
 
 ### Clone the example repo
 ```
