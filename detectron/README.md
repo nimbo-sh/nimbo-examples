@@ -9,7 +9,9 @@ cd nimbo-examples/detectron
 ```
 
 Copy your your key pair .pem file to this directory and replace any necessary values in the `nimbo-config.yml` file with your own credentials and preferences.
+
 Replace the `my-bucket-name` in the `s3_results_path` and `s3_datasets_path` with your bucket.
+
 Do not change the `local_results_path` and the `conda_env`, as they are already correctly set to match the runner script configuration.
 
 ### Finetune the network with nimbo
