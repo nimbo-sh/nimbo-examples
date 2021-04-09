@@ -6,3 +6,5 @@ If you are new to nimbo, please visit the homepage or read the documentation pag
 
 ### Examples list:
 - [Finetuning an object segmentation network with Detectron2](https://github.com/nimbo-sh/nimbo-examples/tree/main/detectron)
+- [Training a neural network on MNIST with Pytorch](https://github.com/nimbo-sh/nimbo-examples/tree/main/pytorch-mnist)
+- [Training a neural network on MNIST with Tensorflow, on a spot instance](https://github.com/nimbo-sh/nimbo-examples/tree/main/tensorflow-mnist)
