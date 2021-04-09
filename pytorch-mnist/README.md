@@ -1,4 +1,4 @@
-# Train a neural network on MNIST with Pytorch 1.6
+# Train a neural network on MNIST with Pytorch 1.6, on a p2.xlarge instance
 
 #### Clone the examples repo
 ```
