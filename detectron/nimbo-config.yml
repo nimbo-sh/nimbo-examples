@@ -5,7 +5,7 @@ s3_results_path: s3://my-bucket-name/nimbo-examples/detectron/output
 s3_datasets_path: s3://my-bucket-name/nimbo-examples/detectron/datasets
 
 # Device, environment and regions
-aws_profile: nimbo
+aws_profile: my-aws-profile
 region_name: eu-west-1
 instance_type: g4dn.2xlarge
 spot: no 

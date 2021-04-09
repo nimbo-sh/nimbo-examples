@@ -1,0 +1,23 @@
+# Data paths
+local_results_path: data/results  # relative to project root
+local_datasets_path: data/datasets  # relative to project root
+s3_results_path: s3://my-bucket-name/nimbo-examples/pytorch-mnist/data/results
+s3_datasets_path: s3://my-bucket-name/nimbo-examples/pytorch-mnist/data/datasets
+
+# Device, environment and regions
+aws_profile: my-aws-profile
+region_name: eu-west-1
+instance_type: p2.xlarge
+spot: no
+
+image: ubuntu18-latest-drivers
+disk_size: 128
+conda_env: env.yml
+
+# Job options
+run_in_background: no
+persist: no
+
+# Permissions and credentials
+security_group: default
+instance_key: my-ec2-key-pair
