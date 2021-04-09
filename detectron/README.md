@@ -1,4 +1,4 @@
-# Finetuning Detectron2 on an g4dn.2xlarge instance
+# Finetuning Detectron2
 
 This example shows how to finetune a Detectron network to segment balloons in images. The script `detectron2_finetuning.py` is a simplified version of the [Detectron Colab tutorial](https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5).
 
