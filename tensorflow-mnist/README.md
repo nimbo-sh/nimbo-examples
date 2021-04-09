@@ -1,4 +1,4 @@
-# Train a neural network on MNIST with Tensorflow 2.2
+# Train a neural network on MNIST with Tensorflow 2.2, on a spot instance
 
 #### Clone the examples repo
 ```
