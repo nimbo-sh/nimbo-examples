@@ -24,7 +24,6 @@ You can make a copy of this tutorial by "File -> Open in playground mode" and ma
 import wget
 import subprocess
 import torch, torchvision
-assert torch.__version__.startswith("1.8")   # need to manually install torch 1.8 if Colab changes its default version
 
 # Some basic setup:
 # Setup detectron2 logger
