@@ -1,4 +1,4 @@
-# Finetuning Detectron2 on Nimbo
+# Finetuning Detectron2
 
 This example shows how to finetune a Detectron network to segment balloons in images. The script `detectron2_finetuning.py` is a simplified version of the [Detectron Colab tutorial](https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5).
 
@@ -14,12 +14,12 @@ Replace the `my-bucket-name` in the `s3_results_path` and `s3_datasets_path` wit
 
 Do not change the `local_results_path` and the `conda_env`, as they are already correctly set to match the runner script configuration.
 
-### Finetune the network with nimbo
+#### Finetune the network
 ```
 nimbo run "python -u detectron2_finetuning.py"
 ```
 
-### Download the results
+#### Download the results and saved models
 ```
 nimbo pull results
 ```
