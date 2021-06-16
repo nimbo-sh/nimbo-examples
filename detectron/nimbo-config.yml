@@ -1,3 +1,5 @@
+cloud_provider: AWS
+
 # Data paths
 local_results_path: output  # relative to project root
 local_datasets_path: datasets  # relative to project root
@@ -21,3 +23,4 @@ persist: no
 # Permissions and credentials
 security_group: default
 instance_key: my-ec2-key-pair
+role: NimboFullS3AccessRole
